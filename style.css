@@ -1,10 +1,10 @@
 *{box-sizing: border-box; font-family: Verdana, Geneva, Tahoma, sans-serif}
 .navbar{background-color: rgb(21, 24, 27);margin:0;padding:0;display: flex;flex-wrap: wrap;gap: 1rem;justify-content: space-evenly;}
-.navbar li{padding: 20px;display: inline-flex; color: antiquewhite;}
+.navbar li{padding: 20px;display:flex; color: antiquewhite;}
 .navbar li a{ text-align: center;text-decoration: none;color: aliceblue;padding: 7px;}
 .active{background-color: rgba(95, 89, 89, 0);}
 .navbar li a:hover:not(.active){background-color: brown}
-ul{list-style-type: none;position: -webkit-sticky;position: sticky;top:0;}
+ ul{list-style-type: none}
 body{margin: 0; background-color: black;color: white;}
 .header{flex-direction: column;display: flex;}
 .footer{display: flex;padding: 15px;text-align:center; background-color: rgb(41, 48, 74); justify-content: space-around;flex-wrap: wrap;}

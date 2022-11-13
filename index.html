@@ -5,6 +5,7 @@
 <meta name="author" content="Jesiah Chow">
 <meta name="description" content="Home page">
 <meta name="date created" content="10 November 2022">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>ONE OK ROCK</title>
@@ -12,8 +13,7 @@
 .container{display: flex;
         width: 100%;
         flex-wrap: wrap;
-        }
-        
+        }   
 .flex-item{padding: 7%;
         margin: auto;
         max-width: 100%;
@@ -22,6 +22,19 @@
             max-width: auto;
             text-align: center;
             height: 300px;}
+.main{display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+.main ul{justify-content: space-evenly;
+        padding: 30px;
+        text-align: center;}
+.main ul li img{width: 100%;
+    max-width: auto;
+    height:250px;
+    margin: auto;
+    justify-content: center;
+    }
         </style>
 
 
@@ -29,6 +42,7 @@
 </head>
 <body>
 <!--Navigation bar-->
+<!-- ul{list-style-type: none;position: -webkit-sticky;position: sticky;top:0;}-->
     <ul class="navbar" style="font-size: 17px;" >
         
         <li><a href="index.html" target="_blank">Home</a></li>
@@ -49,10 +63,28 @@
         </div> 
    </div>
 </div>
-<div class="flex-item">
+<!--Albums-->
+<h1 style="text-align: center;">Albums</h1>
+<hr>
+<div class="main">
+
+    <ul>
+        <li><img src="Images/Luxury Disease album.jpg" alt="Luxury Disease Japanese version">
+        <p>Luxury Disease (Japanese ver)<br>
+            September 9 2022</p></li>
+        <li><img src="Images/Luxury Disease english album.jpg" alt="Luxury Disease english version"><P>Luxury Disease (English ver)<br>
+        September 9 2022</P></li>
+        </li>
+        
+    </ul>
+
   
 </div>
-
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
    
 <div class="footer">
     <p>Done by Jesiah Chow
