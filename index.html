@@ -10,32 +10,60 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>ONE OK ROCK</title>
 <style>
-.container{display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        }   
-.flex-item{padding: 7%;
-        margin: auto;
-        max-width: 100%;
-        justify-content: center;}
+.flex-image{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7%;
+    margin: auto;
+    max-width: 100%;
+}
 .responsive{width: 100%;
             max-width: auto;
             text-align: center;
             height: 300px;}
-.main{display: flex;
+.album{display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
     }
-.main ul{justify-content: space-evenly;
+.album>div{justify-content: space-evenly;
         padding: 30px;
+        margin: 30px;
         text-align: center;}
-.main ul li img{width: 100%;
+.album div img{
+    width: 100%;
     max-width: auto;
     height:250px;
     margin: auto;
-    justify-content: center;
+    gap: 5;
     }
-        </style>
+.album a:link, a:visited {
+  background-color: #721616;
+  color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.album div a:hover, a:active {
+  background-color: #721616;
+}
+.tour{display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-evenly;}
+
+.tour div{background-color: rgb(44, 78, 26);
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;}
+.tour div a{display: inline-flex;}
+    </style>
 
 
 
@@ -46,46 +74,63 @@
     <ul class="navbar" style="font-size: 17px;" >
         
         <li><a href="index.html" target="_blank">Home</a></li>
-        <li><a href="About.html" target="_blank">About</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
         <li><a href="">Store</a></li> 
-        <li><a href="" >Video</a></li>
+        <li><a href="album.html" >Albums</a></li>
         <li><a href="">Tour</a></li>
-        
+        <li><a href="video.html">Video</a></li>
     </ul>
 <!--Main content-->
 <div class="header">
     <img src="Images/ONE OK ROCK logo.png" alt="home" class="responsive">
 </div>
-<div class="container">
-    <div class="flex-item">
-        <div class="flex-image">
-            <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band" >
-        </div> 
-   </div>
-</div>
+<div class="flex-image">
+     <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band" >
+</div> 
+
 <!--Albums-->
 <h1 style="text-align: center;">Albums</h1>
 <hr>
-<div class="main">
+<div class="album">
 
-    <ul>
-        <li><img src="Images/Luxury Disease album.jpg" alt="Luxury Disease Japanese version">
+    <div><a href="https://www.oneokrock.com/jp/music/3982"><img src="Images/Luxury Disease album.jpg" alt="Luxury Disease Japanese ver" title="Luxury Disease Japanese ver"></a>
         <p>Luxury Disease (Japanese ver)<br>
-            September 9 2022</p></li>
-        <li><img src="Images/Luxury Disease english album.jpg" alt="Luxury Disease english version"><P>Luxury Disease (English ver)<br>
-        September 9 2022</P></li>
-        </li>
-        
-    </ul>
+            September 9 2022</p></div>
+    <div><a href="https://www.oneokrock.com/jp/music/3988"><img src="Images/Luxury Disease english album.jpg" alt="Luxury Disease english version" title="Luxury Disease English ver"></a><P>Luxury Disease (English ver)<br>
+        September 9 2022</P></div>
+    <div><a href="https://www.oneokrock.com/jp/music/2581"><img src="Images/Eye of the Storm album.jpg" alt = "Eye of the Storm English ver" title="Luxury Disease English ver"></a><p>
+        Eye of the Storm (English ver)<br>
+        February 15 2019
+    </p></div>
+    <div><a href="https://www.oneokrock.com/jp/music/1703"><img src="Images/Ambitions Japanese ver.jpg" alt="Ambitions Japanese ver"></a><p>Ambitions (Japanese ver)<br>
+    January 11 2019</p></div>
+    <div><a href="album.html">More</a></div>
 
   
+</div>
+<h1 style="text-align: center;">Tours</h1>
+<hr>
+<div class="tour">
+    <div>2 December 2022 - 4 December 2022 <br>
+        Good Things Festival 2022 Australia</div>
+        <br>
+    <div>25 February 2023 - 19 March 2023<br>
+        Muse-Will Of The People World Tour 2023 North America</div>
+        <br>
+    <div><a href="tour.html">More</a></div>
 </div>
 <br><br>
 <br><br>
 <br><br>
 <br><br>
 <br><br>
-   
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<a href="#Top" style="color: white; margin: 10px; background-color: rgba(88, 145, 87, 0.459);display: flexbox; padding: 10px; border-radius: 20px;">Back to Top</a>
+<br><br>  
+<!--footer-->
 <div class="footer">
     <p>Done by Jesiah Chow
     <br><br>
