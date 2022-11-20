@@ -58,7 +58,7 @@ I have received inspiration from this website:
 
 - https://www.oneokrock.com/en/
 
-The texts are taken from:
+The information are taken from:
 
 - https://www.oneokrock.com/en/
 - https://kprofiles.com/one-ok-rock-members-profile/
