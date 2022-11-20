@@ -32,16 +32,18 @@
 .album>div{justify-content: space-evenly;
         padding: 30px;
         margin: 30px;
-        text-align: center;}
+        text-align: center;
+}
 .album div img{
     width: 100%;
     max-width: auto;
     height:250px;
     margin: auto;
     gap: 5;
+
     }
 .album a:link, a:visited {
-  background-color: #721616;
+  
   color: white;
   padding: 9px;
   text-align: center;
@@ -55,14 +57,22 @@
 .tour{display: flex;
 flex-wrap: wrap;
 flex-direction: column;
-justify-content: space-evenly;}
+justify-content: space-evenly;
+}
 
-.tour div{background-color: rgb(44, 78, 26);
+.tour div{background-color: rgb(27, 44, 18);
     font-size: 20px;
     padding: 10px;
     margin: 0;
-    text-align: center;}
-.tour div a{display: inline-flex;}
+    text-align: center;
+border-radius: 50px;}
+.tour a:hover,a:active{
+    background-color: #721616;
+}
+.tour a p{text-align: center;
+display: flexbox;
+}
+
     </style>
 
 
@@ -76,8 +86,8 @@ justify-content: space-evenly;}
         <li><a href="index.html" target="_blank">Home</a></li>
         <li><a href="about.html" target="_blank">About</a></li>
         <li><a href="">Store</a></li> 
-        <li><a href="album.html" >Albums</a></li>
-        <li><a href="">Tour</a></li>
+        <li><a href="music.html" >Music</a></li>
+        <li><a href="tour.html">Tour</a></li>
         <li><a href="video.html">Video</a></li>
     </ul>
 <!--Main content-->
@@ -85,7 +95,7 @@ justify-content: space-evenly;}
     <img src="Images/ONE OK ROCK logo.png" alt="home" class="responsive">
 </div>
 <div class="flex-image">
-     <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band" >
+     <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band">
 </div> 
 
 <!--Albums-->
@@ -104,7 +114,7 @@ justify-content: space-evenly;}
     </p></div>
     <div><a href="https://www.oneokrock.com/jp/music/1703"><img src="Images/Ambitions Japanese ver.jpg" alt="Ambitions Japanese ver"></a><p>Ambitions (Japanese ver)<br>
     January 11 2019</p></div>
-    <div><a href="album.html">More</a></div>
+    <div><a href="music.html">More</a></div>
 
   
 </div>
@@ -117,9 +127,10 @@ justify-content: space-evenly;}
     <div>25 February 2023 - 19 March 2023<br>
         Muse-Will Of The People World Tour 2023 North America</div>
         <br>
-    <div><a href="tour.html">More</a></div>
+    <a href="tour.html" ><p>More</p></a>
 </div>
 <br><br>
+
 <br><br>
 <br><br>
 <br><br>
@@ -128,7 +139,7 @@ justify-content: space-evenly;}
 <br><br>
 <br><br>
 <br><br>
-<a href="#Top" style="color: white; margin: 10px; background-color: rgba(88, 145, 87, 0.459);display: flexbox; padding: 10px; border-radius: 20px;">Back to Top</a>
+<a href="#Top" style="color: white; margin: 10px; background-color: rgba(88, 145, 87, 0.459);display: flexbox; padding: 10px; border-radius: 20px;text-decoration: none;">Back to Top</a>
 <br><br>  
 <!--footer-->
 <div class="footer">
