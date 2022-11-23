@@ -13,24 +13,25 @@
 .flex-image{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 7%;
+    max-width: 50%;
     margin: auto;
-    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
 }
-.responsive{width: 100%;
-            max-width: auto;
-            text-align: center;
-            height: 300px;}
-.album{display: flex;
+
+.album{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
-    flex-direction: row;
+    
+    margin: auto;
     }
-.album>div{justify-content: space-evenly;
-        padding: 30px;
+.album>div{
+    justify-content: space-evenly;
+        padding: 40px;
         margin: 30px;
         text-align: center;
 }
@@ -55,7 +56,7 @@
   background-color: #721616;
 }
 .tour{display: flex;
-flex-wrap: wrap;
+flex-wrap: nowrap;
 flex-direction: column;
 justify-content: space-evenly;
 }
@@ -81,19 +82,21 @@ display: flexbox;
 <body>
 <!--Navigation bar-->
 <!-- ul{list-style-type: none;position: -webkit-sticky;position: sticky;top:0;}-->
-    <ul class="navbar" style="font-size: 17px;" >
+<div class="header">
+    <img src="Images/ONE OK ROCK logo.png" alt="home">
+</div>
+<nav>
+    <ul>
         
         <li><a href="index.html" target="_blank">Home</a></li>
         <li><a href="about.html" target="_blank">About</a></li>
-        <li><a href="">Store</a></li> 
+        <li><a href="store.html">Store</a></li> 
         <li><a href="music.html" >Music</a></li>
         <li><a href="tour.html">Tour</a></li>
         <li><a href="video.html">Video</a></li>
     </ul>
+</nav>
 <!--Main content-->
-<div class="header">
-    <img src="Images/ONE OK ROCK logo.png" alt="home" class="responsive">
-</div>
 <div class="flex-image">
      <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band">
 </div> 
@@ -114,6 +117,7 @@ display: flexbox;
     </p></div>
     <div><a href="https://www.oneokrock.com/jp/music/1703"><img src="Images/Ambitions Japanese ver.jpg" alt="Ambitions Japanese ver"></a><p>Ambitions (Japanese ver)<br>
     January 11 2019</p></div>
+    
     <div><a href="music.html">More</a></div>
 
   
