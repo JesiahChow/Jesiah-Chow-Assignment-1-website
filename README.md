@@ -50,7 +50,7 @@ The photos and icons in this website were obtained from:
 - https://www.listal.com/viewimage/9333894
 - https://kprofiles.com/one-ok-rock-members-profile/
 - https://icons8.com/icons/set/instagram--white
-- http://ar-kaze.blogspot.com/2016/12/download-one-ok-rock-2015-35xxxv-japan-tour-live-concert-saitama-super-arena-blueray-720p. html
+- http://ar-kaze.blogspot.com/2016/12/download-one-ok-rock-2015-35xxxv-japan-tour-live-concert-saitama-super-arena-blueray-720p.html
 - https://icons8.com/icons/set/twitter--white
 - https://icons8.com/icons/set/youtube--white
 
