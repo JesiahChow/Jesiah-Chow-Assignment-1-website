@@ -53,6 +53,8 @@ The photos and icons in this website were obtained from:
 - http://ar-kaze.blogspot.com/2016/12/download-one-ok-rock-2015-35xxxv-japan-tour-live-concert-saitama-super-arena-blueray-720p.html
 - https://icons8.com/icons/set/twitter--white
 - https://icons8.com/icons/set/youtube--white
+- https://twitter.com/oneokrock_japan
+- https://store.oneokrock.com/
 
 I have received inspiration from this website:
 
@@ -62,5 +64,6 @@ The information are taken from:
 
 - https://www.oneokrock.com/en/
 - https://kprofiles.com/one-ok-rock-members-profile/
+- https://store.oneokrock.com/
 - Youtube
 - Spotify
