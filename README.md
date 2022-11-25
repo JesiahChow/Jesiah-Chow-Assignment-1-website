@@ -55,6 +55,11 @@ The photos and icons in this website were obtained from:
 - https://icons8.com/icons/set/youtube--white
 - https://twitter.com/oneokrock_japan
 - https://store.oneokrock.com/
+- https://sg.style.yahoo.com/photos-6-500-fans-turn-slideshow-wp-063401945.html
+- https://damoclesjournal.com/category/impact/
+- https://highlightmagazine.net/2019/05/22/photo-gallery-one-ok-rock/
+
+
 
 I have received inspiration from this website:
 

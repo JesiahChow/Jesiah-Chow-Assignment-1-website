@@ -16,52 +16,85 @@
     flex-wrap: wrap;
     }
     .shop div{
-        justify-content: space-evenly;
+        /*justify-content: space-evenly*/
         padding: 10px;
-        margin: 50px;
-        text-align: center;}
-    .shop p{justify-content: center;}
-    .shop img{
-        justify-content: space-evenly;
+        margin: 70px;
+        text-align: center;
+    }
+    .shop p{justify-content: center;
+    }
+    .shop div img{
+        /*justify-content: space-evenly;*/
         width: 100%;
         max-width: auto;
-        height:300px;
-        margin: 30px;
-      
+        height:250px;
+        margin: auto;
+        transition:transform 0.25s ease;
+     
     }
+
+.shop img:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+}
+
     
 </style>
 </head>
 <body>
     <div class="header">
         <img src="Images/one ok rock white logo.jpg" alt="home" >
-    </div>    
+    </div>  
 <nav>
     <ul>
         <li><a href="index.html" target="_blank">Home</a></li>
         <li><a href="about.html" target="_blank">About</a></li>
-        <li><a href="store.html">Store</a></li> 
-        <li><a href="music.html" >Music</a></li>
-        <li><a href="tour.html">Tour</a></li>
-        <li><a href="video.html">Video</a></li>
+        <li><a href="video.html" target="_blank">Video</a></li> 
+        <li><a href="music.html" target="_blank">Music</a></li>
+        <li><a href="tour.html" target="_blank">Tour</a></li>
+        <li><a href="store.html" target="_blank">Store</a></li>
     </ul>
 </nav>
 <br>
 <h1 style="display: flex;justify-content:center;">Featured</h1>
-<!--Featured items-->
+<!--Featured items-->''
 <div class="shop">
-    <div><img src="Images/star long sleeve.png" alt="Star Long Sleeve" title="Star Long Sleeve"><p>Star Long Sleeve<br><b>USD$55.00</b></p></div>
-    <div><img src="Images/sun logo hoodie.png" alt="Sun Logo Hoodie" title="Sun Logo Hoodie"><p>Sun Logo Hoodie<br><b>USD$60.00</b></p></div>
-    <div><img src="Images/logo colage tee.png" alt="Logo Collage Tee" title="Logo Collage Tee"><p>Logo Collage Tee<br><b>USD$30.00</b></p></div>
-    <div><img src="Images/text logo beanie.png"alt = "Text Logo Beanie" title="Text Logo Beanie"><p>Text Logo Beanie<br><b>USD$20.00</b></p></div>
-    <div><img src="Images/ld cd.png" alt="Luxury Disease CD" title="Luxury Disease CD"><p>Luxury Disease CD<br><b>USD$10.00</b></p></div>
-    <div><img src="Images/ld digital album.png" alt="Luxury Disease Digital Album" title="Luxury Disease Digital Album"><p>Luxury Disease Digital Album<br><b>USD$7.99</b></p></div>
-    <div><img src="Images/fanny pack.png" alt="Rock On Fanny Pack" title="Rock On Fanny Pack"><p>Rock On Fanny Pack<br>$USD28.00</p></div>
-    <div><img src="Images/eye of storm blanket.png" alt="Eye of the Storm Blanket" title="Eye of the Storm Blanket"><p>Eye of the Storm Blanket<br><b>USD$75.00</b></p></div>
-    <div><img src="Images/ufo storm tour tee.png" alt="UFO Storm Tour White T-Shirt" title="UFO Storm Tour White T-Shirt"><p>UFO Storm Tour White T-Shirt<br><b>USD$25.00</b></p></div>
-    <div><img src="Images/painted storm.png"alt="Painted Storm T-Shirt" title="Painted Storm T-Shirt"><p>Painted Storm T-Shirt<br><b>USD$25.00</b></p></div>
-    <div><img src="Images/vintage storm.png" alt="Vintage Storm T-shirt" title="Vintage Storm T-shirt"><p>Vintage Storm T-Shirt<br><b>USD$25.00</b></p></div>
-    <div><img src="Images/eye of storm tee.png" alt="Eye of the Storm T-Shirt" title="Eye of the Storm T-Shirt"><p>Eye of the Storm T-Shirt<br><b>USD$25.00</b></p></div>
+    <div><a href="https://store.oneokrock.com/en/one-ok-rock/star-long-sleeve/M697020.html"><img src="Images/star long sleeve.png" alt="Star Long Sleeve" title="Star Long Sleeve"></a>
+        <p>Star Long Sleeve<br><b>USD$55.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/one-ok-rock/sun-logo-hoodie/M697039.html"><img src="Images/sun logo hoodie.png" alt="Sun Logo Hoodie" title="Sun Logo Hoodie"></a>
+        <p>Sun Logo Hoodie<br><b>USD$60.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/one-ok-rock/logo-collage-tee/M697047.html"><img src="Images/logo colage tee.png" alt="Logo Collage Tee" title="Logo Collage Tee"></a>
+        <p>Logo Collage Tee<br><b>USD$30.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/fueled-by-ramen/one-ok-rock/text-logo-beanie/090317444017.html"><img src="Images/text logo beanie.png"alt = "Text Logo Beanie" title="Text Logo Beanie"></a>
+        <p>Text Logo Beanie<br><b>USD$20.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/one-ok-rock/luxury-disease-cd/075678631184.html"><img src="Images/ld cd.png" alt="Luxury Disease CD" title="Luxury Disease CD"></a>
+        <p>Luxury Disease CD<br><b>USD$10.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/one-ok-rock/luxury-disease-digital-album/075679739889.html"><img src="Images/ld digital album.png" alt="Luxury Disease Digital Album" title="Luxury Disease Digital Album"></a>
+        <p>Luxury Disease Digital Album<br><b>USD$7.99</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/fueled-by-ramen/one-ok-rock/rock-on-fanny-pack/090317980072.html"><img src="Images/fanny pack.png" alt="Rock On Fanny Pack" title="Rock On Fanny Pack"></a>
+        <p>Rock On Fanny Pack<br>$USD28.00</p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/fueled-by-ramen/one-ok-rock/eye-of-the-storm-blanket/090317994161.html"><img src="Images/eye of storm blanket.png" alt="Eye of the Storm Blanket" title="Eye of the Storm Blanket"></a>
+        <p>Eye of the Storm Blanket<br><b>USD$75.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/fueled-by-ramen/ufo-storm-tour-t-shirt-white/M580291.html"><img src="Images/ufo storm tour tee.png" alt="UFO Storm Tour White T-Shirt" title="UFO Storm Tour White T-Shirt"></a>
+        <p>UFO Storm Tour White T-Shirt<br><b>USD$25.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/one-ok-rock/painted-storm-t-shirt/090317980027_CONFIG.html"><img src="Images/painted storm.png"alt="Painted Storm T-Shirt" title="Painted Storm T-Shirt"></a>
+        <p>Painted Storm T-Shirt<br><b>USD$25.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/fueled-by-ramen/vintage-storm-t-shirt/M590684.html"><img src="Images/vintage storm.png" alt="Vintage Storm T-shirt" title="Vintage Storm T-shirt"></a>
+        <p>Vintage Storm T-Shirt<br><b>USD$25.00</b></p>
+    </div>
+    <div><a href="https://store.oneokrock.com/en/fueled-by-ramen/eye-of-the-storm-t-shirt/M578831.html"><img src="Images/eye of storm tee.png" alt="Eye of the Storm T-Shirt" title="Eye of the Storm T-Shirt"></a>
+        <p>Eye of the Storm T-Shirt<br><b>USD$25.00</b></p>
+    </div>
 
 
 </div>

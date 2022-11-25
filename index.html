@@ -73,6 +73,9 @@ border-radius: 50px;}
 .tour a p{text-align: center;
 display: flexbox;
 }
+.intro{padding: 20px;
+font-size: 17px;}
+
 
     </style>
 
@@ -80,26 +83,28 @@ display: flexbox;
 
 </head>
 <body>
-<!--Navigation bar-->
-<!-- ul{list-style-type: none;position: -webkit-sticky;position: sticky;top:0;}-->
-<div class="header">
-    <img src="Images/ONE OK ROCK logo.png" alt="home">
-</div>
 <nav>
+    <div class="header">
+        <img src="Images/ONE OK ROCK logo.png" alt="home">
+    </div>
     <ul>
         
         <li><a href="index.html" target="_blank">Home</a></li>
         <li><a href="about.html" target="_blank">About</a></li>
-        <li><a href="store.html">Store</a></li> 
-        <li><a href="music.html" >Music</a></li>
-        <li><a href="tour.html">Tour</a></li>
-        <li><a href="video.html">Video</a></li>
+        <li><a href="video.html" target="_blank">Video</a></li> 
+        <li><a href="music.html" target="_blank">Music</a></li>
+        <li><a href="tour.html" target="_blank">Tour</a></li>
+        <li><a href="store.html" target="_blank ">Store</a></li>
     </ul>
 </nav>
 <!--Main content-->
 <div class="flex-image">
      <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band">
 </div> 
+<div class="intro">
+    <p>ONE OK ROCK is a Japanese rock band, formed in Tokyo,Japan, in 2005 and debuted in 2007.<br> Their members consists of vocalist
+    Takehiro Moriuchi, guitarist and bandleader Toru Yamashita,<br> bassist Ryota Kohoma and drummer Tomoya Kanki. </p>
+</div>
 
 <!--Albums-->
 <h1 style="text-align: center;">Albums</h1>
@@ -117,11 +122,20 @@ display: flexbox;
     </p></div>
     <div><a href="https://www.oneokrock.com/jp/music/1703"><img src="Images/Ambitions Japanese ver.jpg" alt="Ambitions Japanese ver"></a><p>Ambitions (Japanese ver)<br>
     January 11 2019</p></div>
-    
-    <div><a href="music.html">More</a></div>
-
-  
 </div>
+<div class="more"><a href="music.html">More</a></div>
+<br>
+<!--Gallery-->
+<h1 style="text-align: center;">Gallery</h1>
+<hr>
+<div class="gallery">
+    <div><img src = "Images/one ok rock ambitions tour singapore.jpg"></div>
+    <div><img src="Images/impact.jpg"></div>
+    <div><img src="Images/idk9.jpg"></div>
+    <div><img src="Images/idk10.jpg"></div>
+</div>
+
+<!--Tours-->
 <h1 style="text-align: center;">Tours</h1>
 <hr>
 <div class="tour">
@@ -131,8 +145,8 @@ display: flexbox;
     <div>25 February 2023 - 19 March 2023<br>
         Muse-Will Of The People World Tour 2023 North America</div>
         <br>
-    <a href="tour.html" ><p>More</p></a>
 </div>
+<div class="more"><a href="tour.html" ><p>More</p></a></div>
 <br><br>
 
 <br><br>
@@ -144,7 +158,8 @@ display: flexbox;
 <br><br>
 <br><br>
 <a href="#Top" style="color: white; margin: 10px; background-color: rgba(88, 145, 87, 0.459);display: flexbox; padding: 10px; border-radius: 20px;text-decoration: none;">Back to Top</a>
-<br><br>  
+<br><br>
+<br><br>
 <!--footer-->
 <div class="footer">
     <p>Done by Jesiah Chow
@@ -152,6 +167,16 @@ display: flexbox;
     <a href="https://www.instagram.com/oneokrockofficial/" target="_blank"><img src="Images/instagram icon.png" width="25px" height="25px" title="ONE OK ROCK Instagram" alt="ONE OK ROCK Instagram"></a>
     <a href="https://twitter.com/ONEOKROCK_japan" target="_blank"><img src="Images/twitter icon.png" width="25px" height="25px" title="ONE OK ROCK Twitter" alt="ONE OK ROCK Twitter"></a>
     <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube icon.png" width="25px" height="25px" title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube"></a></p>
+    <div class = "form">
+        <form enctype="text/plain">
+            <h3>Subscribe to our Newsletter</h3><br>
+            <label for="email">Email Address: </label>
+            <input type="email" id = "email" name="email">
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </div>
 </div>
 
 
