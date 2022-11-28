@@ -37,12 +37,13 @@ This is the website that I had referred from :
 - https://www.w3schools.com/CSSref/sel_hover.php
 
 Testing:
-I have not implemented any testing scenarious to my assignment as I was adding content into my webpages but at the end I plan
-to add a form to test my codes.
+For testing, I have added a form in the footer for users to fill in should they want to subscribe to the band's newsletter.
 
-The website content will be in columns in the mobile view but I yet complete fixing the contents to fit in mobile view.
+1. Scroll down to the footer
 
-So far I have not found any bug in visual studio code when coding
+2. Leave the email blank and hit subscribe to verify if an error message appear asking you to fill in the required fields.
+
+3. Fill in the form but this time with a random text that is not an email to verify if an error message on invalid email appears.
 
 References:
 The photos and icons in this website were obtained from:
@@ -58,8 +59,6 @@ The photos and icons in this website were obtained from:
 - https://sg.style.yahoo.com/photos-6-500-fans-turn-slideshow-wp-063401945.html
 - https://damoclesjournal.com/category/impact/
 - https://highlightmagazine.net/2019/05/22/photo-gallery-one-ok-rock/
-
-
 
 I have received inspiration from this website:
 
