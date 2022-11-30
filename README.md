@@ -45,6 +45,8 @@ For testing, I have added a form in the footer for users to fill in should they 
 
 3. Fill in the form but this time with a random text that is not an email to verify if an error message on invalid email appears.
 
+4. This time, fill in the form with a valid email and click subscribe to verify if a success message will appear.
+
 References:
 The photos and icons in this website were obtained from:
 
@@ -71,3 +73,9 @@ The information are taken from:
 - https://store.oneokrock.com/
 - Youtube
 - Spotify
+
+The videos were taken from:
+
+- https://www.youtube.com/watch?v=Hh9yZWeTmVM
+- https://www.youtube.com/watch?v=6YZlFdTIdzM
+- https://www.youtube.com/watch?v=UjZqcDYbvAE

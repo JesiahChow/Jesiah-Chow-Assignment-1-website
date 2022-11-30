@@ -12,3 +12,9 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+function successMessage()
+{
+  alert("You have subscribed to our newsletter!")
+  document.querySelector("#email").value = "";
+}

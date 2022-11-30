@@ -7,8 +7,10 @@
 <meta name="date created" content="10 November 2022">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" type="text/css" href="normalize.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>ONE OK ROCK</title>
+<script src="collapse.js"defer></script>
 <style>
 .flex-image{
     display: flex;
@@ -170,13 +172,13 @@ font-size: 17px;}
         <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube icon.png" width="30px" height="30px" title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube"></a></p>
     </div>
     <!--form-->
-    <form enctype="text/plain" class="form">
+    <form enctype="text/plain" class="form" onsubmit="return false">
         <div class="newsletter"><h3>Subscribe to our Newsletter</h3></div>
         <div class="email">
             <label for="email">Email Address: </label>
             <input type="email" id = "email" name="email" placeholder="Email" required>
         </div>
-        <button type="submit">Subscribe</button>
+        <button onclick="successMessage()">Subscribe</button>
   
 
                 

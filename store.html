@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONE OK ROCK STORE</title>
+    <link rel = "stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 <style>
     body{background-color: white; color: black;}
-    nav{background-color: rgb(197, 197, 197);
+    nav{background-color:rgb(66, 66, 66);
     }
-    nav li a{color: black;}
+    
     .shop{display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     }
     .shop div{
         /*justify-content: space-evenly*/
-        padding: 10px;
+        padding:10px ;
         margin: 70px;
         text-align: center;
+        width: auto;
+        max-width: 100%;
     }
     .shop p{justify-content: center;
     }
@@ -37,6 +40,12 @@
     -webkit-transform:scale(1.1); /* or some other value */
     transform:scale(1.1);
 }
+/*.shop div .stock{
+    border: 4px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    }*/
 
     
 </style>
@@ -82,6 +91,7 @@
     </div>
     <div><a href="https://store.oneokrock.com/en/fueled-by-ramen/one-ok-rock/eye-of-the-storm-blanket/090317994161.html"><img src="Images/eye of storm blanket.png" alt="Eye of the Storm Blanket" title="Eye of the Storm Blanket"></a>
         <p>Eye of the Storm Blanket<br><b>USD$75.00</b></p>
+        <p class="stock">Out of stock</p>
     </div>
     <div><a href="https://store.oneokrock.com/en/fueled-by-ramen/ufo-storm-tour-t-shirt-white/M580291.html"><img src="Images/ufo storm tour tee.png" alt="UFO Storm Tour White T-Shirt" title="UFO Storm Tour White T-Shirt"></a>
         <p>UFO Storm Tour White T-Shirt<br><b>USD$25.00</b></p>
@@ -113,13 +123,13 @@
         <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube icon.png" width="25px" height="25px" title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube"></a></p>
     </div>
     <!--form-->
-    <form enctype="text/plain" class="form">
+    <form enctype="text/plain" class="form" onsubmit="return false">
         <div class="newsletter"><h3>Subscribe to our Newsletter</h3></div>
         <div class="email">
             <label for="email">Email Address: </label>
             <input type="email" id = "email" name="email" placeholder="Email" required>
         </div>
-        <button type="submit">Subscribe</button>
+        <button onclick="successMessage()">Subscribe</button>
   
 
                 
