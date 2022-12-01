@@ -18,3 +18,4 @@ function successMessage()
   alert("You have subscribed to our newsletter!")
   document.querySelector("#email").value = "";
 }
+
