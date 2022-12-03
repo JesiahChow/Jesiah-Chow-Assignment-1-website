@@ -7,29 +7,27 @@
     <title>ONE OK ROCK Video</title>
     <link rel = "stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+
+        .videos{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 40px;
+        }
+        .videos div{text-align: center;}
+        iframe{
+            width: 50%;
+            border: 0;
+        }
+        </style>
 </head>
-<style>
 
-.videos{display: flex;
-flex-direction: column;
-justify-content: center;
-flex-wrap: nowrap;
-padding: 40px;}
-.videos div{text-align: center;}
-iframe{
-    width: 50%;
-    max-width: auto;
-}
-
-
-
-
-</style>
 <body>
 <!--Navigation bar-->
 <nav>
     <div class="header">
-        <img src="Images/ONE OK ROCK logo.png" alt="home" >
+        <img src="Images/ONE_OK_ROCK_logo.png" alt="home" >
     </div>
     <ul>
         <li><a href="index.html" target="_blank">Home</a></li>
@@ -42,25 +40,22 @@ iframe{
 </nav>
     <h1 style="display: flex;justify-content: center;">Most popular songs</h1>
     <p style="display:flex;justify-content: center;">Based from Youtube</p>
-    
+        <!--Videos-->
         <div class="videos">
-            <div><iframe width="1024" height="576" src="https://www.youtube.com/embed/Hh9yZWeTmVM" title="ONE OK ROCK - The Beginning [Official Music Video]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            <!--First video-->
+            <div><iframe width="1024" height="576" src="https://www.youtube.com/embed/Hh9yZWeTmVM" title="ONE OK ROCK - The Beginning [Official Music Video]"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
             <p>128M views on Youtube<br>
                 80M streams on Spotify<br>
                 Release date:15 August 2012</p>
-           
             </div>
-   
-            <div><iframe width="1024" height="576" src="https://www.youtube.com/embed/6YZlFdTIdzM" title="ONE OK ROCK - Clock Strikes [Official Music Video]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!--Second video-->
+            <div><iframe width="1024" height="576" src="https://www.youtube.com/embed/6YZlFdTIdzM" title="ONE OK ROCK - Clock Strikes [Official Music Video]"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>118M views on Youtube<br>
                 40M streams on Spotify<br>
                 Release date:23 February 2013</p>
             </div>
-           
-          
-        
-       
-            <div><iframe width="1024" height="576" src="https://www.youtube.com/embed/UjZqcDYbvAE" title="ONE OK ROCK - Mighty Long Fall [Official Music Video]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <!--Third video-->
+            <div><iframe width="1024" height="576" src="https://www.youtube.com/embed/UjZqcDYbvAE" title="ONE OK ROCK - Mighty Long Fall [Official Music Video]"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>68M views on Youtube<br>
             17M streams on Spotify<br>
             Release date:23 July 2014</p>
@@ -75,23 +70,23 @@ iframe{
     <br><br>
     <br><br>
    
-    <a href="#Top" style="color: white; margin: 10px; background-color: rgba(88, 145, 87, 0.459);display: flexbox; padding: 10px; border-radius: 20px;text-decoration: none;">Back to Top</a>
+    <a href="#Top" class="top">Back to Top</a>
     <br><br>  
     <!--footer-->
     <div class="footer">
         <div class="subfooter">
             <p>Done by Jesiah Chow
             <br><br>
-            <a href="https://www.instagram.com/oneokrockofficial/" target="_blank"><img src="Images/instagram icon.png" width="25px" height="25px" title="ONE OK ROCK Instagram" alt="ONE OK ROCK Instagram"></a>
-            <a href="https://twitter.com/ONEOKROCK_japan" target="_blank"><img src="Images/twitter icon.png" width="25px" height="25px" title="ONE OK ROCK Twitter" alt="ONE OK ROCK Twitter"></a>
-            <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube icon.png" width="25px" height="25px" title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube"></a></p>
+            <a href="https://www.instagram.com/oneokrockofficial/" target="_blank"><img src="Images/instagram_icon.png" title="ONE OK ROCK Instagram" alt="ONE OK ROCK Instagram" style="width:30px ; height:30px"></a>
+            <a href="https://twitter.com/ONEOKROCK_japan" target="_blank"><img src="Images/twitter_icon.png" title="ONE OK ROCK Twitter" alt="ONE OK ROCK Twitter" style="width:30px ; height:30px"></a>
+            <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube_icon.png" title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube" style="width:30px ; height:30px"></a></p>
         </div>
         <!--form-->
-        <form enctype="text/plain" class="form" onsubmit="return false">
+        <form enctype="text/plain" class="form" onsubmit="return formValidation()">
             <div class="newsletter"><h3>Subscribe to our Newsletter</h3></div>
             <div class="email">
                 <label for="email">Email Address: </label>
-                <input type="email" id = "email" name="email" placeholder="Email" required>
+                <input type="email" id = "email" name="email" placeholder="Email">
             </div>
             <button onclick="successMessage()">Subscribe</button>
       

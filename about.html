@@ -9,17 +9,22 @@
   
 <style>
 .flex-image{display: flex;
-width: 100%;
-max-width: 50%;
-margin: auto;
 flex-direction: column;
-justify-content: center;}
+justify-content: center;
+flex-wrap: nowrap;
+padding: 30px;}
+
+.flex-image img{
+    margin: auto;
+    width: 60%;
+    height: 600px;
+}
         
 .flex-item{padding: 7%;
         margin: auto;
         max-width: 100%;
         justify-content: center;
-    flex-wrap: nowrap;}
+        flex-wrap: nowrap;}
 .flex-container{display: flex;
                 justify-content: space-evenly;
                 background-color: rgb(60, 61, 48);
@@ -34,14 +39,15 @@ justify-content: center;}
 .main{display: flex;
 max-width: 100%;
 justify-content: center;
-flex-direction: column;}
+flex-direction: column;
+padding: 22px;}
 </style>
 </head>
 <body> 
  <!--Navigation bar-->
  <nav>
     <div class="header">
-        <img src="Images/ONE OK ROCK logo.png" alt="home" >
+        <img src="Images/ONE_OK_ROCK_logo.png" alt="home" >
     </div>
     <ul>
             
@@ -67,23 +73,23 @@ flex-direction: column;}
 <div class="flex-container">
     <div class="flex-item">
     <!--Toru-->
-    <img src="Images/toru.jpg" alt="Yamashita Toru" title="Yamashita Toru" width = "300" height = "200">
-    <p style="text-align: center;">Yamashita Toru<hr>
-     Leader, guitar, vocalist<br>
-    Date of birth:December 7 1988<br>
-    <a href="https://www.instagram.com/toru_10969/" target="_blank"><img src="Images/instagram icon.png" width="25px" height="25px" title="Toru's Instagram" alt="Toru's Instagram"></a></p></div>
+    <img src="Images/toru.jpg" alt="Yamashita Toru" title="Yamashita Toru" style="width: 300px;height:200px;">
+    <p>Yamashita Toru</p><hr>
+    <p>Leader, guitar, vocalist<br>
+    Date of birth:December 7 1988<br></p>
+    <a href="https://www.instagram.com/toru_10969/" target="_blank"><img src="Images/instagram_icon.png" title="Toru's Instagram" alt="Toru's Instagram" style="width: 25px;height: 25px;"></a></div>
 	<!--Tomoya-->
     <div class="flex-item">
-    <img src="Images/tomoya.jpg" alt="Kanki Tomoya" title="Kanki Tomoya" width="300" height="200">
-    <p>Kanki Tomoya<hr>Drummer<br>Date of birth:June 27 1987<br><a href="https://www.instagram.com/tomo_10969/" target="_blank"><img src="Images/instagram icon.png" width="25px" height="25px" title="Tomoya's Instagram" alt="Tomoya's Instagram"></a></p></div>
+    <img src="Images/tomoya.jpg" alt="Kanki Tomoya" title="Kanki Tomoya" style="width: 300px;height:200px;">
+    <p>Kanki Tomoya</p><hr><p>Drummer<br>Date of birth:June 27 1987<br></p><a href="https://www.instagram.com/tomo_10969/" target="_blank"><img src="Images/instagram_icon.png" style="width: 25px;height: 25px;" title="Tomoya's Instagram" alt="Tomoya's Instagram"></a></div>
 	<!--Taka-->
     <div class="flex-item">
-    <img src="Images/taka.jpg" alt="Moriuchi Takahiro" title="Moriuchi Takahiro" width="300" height="200">
-    <p>Moriuchi Takahiro<hr>Main vocalist<br>Date of birth:April 17 1988<br><a href="https://www.instagram.com/10969taka/" target="_blank"><img src="Images/instagram icon.png" width="25px" height="25px" title="Taka's Instagram" alt="Taka's Instagram"></a></p></div>
+    <img src="Images/taka.jpg" alt="Moriuchi Takahiro" title="Moriuchi Takahiro" style="width: 300px;height:200px;">
+    <p>Moriuchi Takahiro</p><hr><p>Main vocalist<br>Date of birth:April 17 1988<br></p><a href="https://www.instagram.com/10969taka/" target="_blank"><img src="Images/instagram_icon.png" style="width: 25px;height: 25px;" title="Taka's Instagram" alt="Taka's Instagram"></a></div>
 	<!--Ryota-->
     <div class="flex-item">
-    <img src="Images/ryota.jpg" alt="Kohoma Ryota" title="Kohoma Ryota" width="300" height="200">
-    <p>Kohoma Ryota<hr>Bass guitar,backing vocals<br>Date of birth:September 4 1989<br><a href="https://www.instagram.com/ryota_10969/" target="_blank"><img src="Images/instagram icon.png" width="25px" height="25px" title="Ryota's Instagram" alt="Ryota's Instagram"></a></p></div>
+    <img src="Images/ryota.jpg" alt="Kohoma Ryota" title="Kohoma Ryota" style="width: 300px;height:200px;">
+    <p>Kohoma Ryota</p><hr><p>Bass guitar,backing vocals<br>Date of birth:September 4 1989<br></p><a href="https://www.instagram.com/ryota_10969/" target="_blank"><img src="Images/instagram_icon.png" style="width: 25px;height: 25px;" title="Ryota's Instagram" alt="Ryota's Instagram"></a></div>
 </div>
 <h2 style="text-align:center ;">Biography</h2>
 <hr>
@@ -107,22 +113,22 @@ flex-direction: column;}
 <br><br>
 <br><br>
 <br><br>
-<a href="#Top" style="color: white; margin: 10px; background-color: rgba(88, 145, 87, 0.459);display: flexbox; padding: 10px; border-radius: 20px;text-decoration: none;">Back to Top</a>
+<a href="#Top" class="top">Back to Top</a>
 <br><br>
 <div class="footer">
     <div class="subfooter">
         <p>Done by Jesiah Chow
         <br><br>
-        <a href="https://www.instagram.com/oneokrockofficial/" target="_blank"><img src="Images/instagram icon.png" width="25px" height="25px" title="ONE OK ROCK Instagram" alt="ONE OK ROCK Instagram"></a>
-        <a href="https://twitter.com/ONEOKROCK_japan" target="_blank"><img src="Images/twitter icon.png" width="25px" height="25px" title="ONE OK ROCK Twitter" alt="ONE OK ROCK Twitter"></a>
-        <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube icon.png" width="25px" height="25px" title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube"></a></p>
+        <a href="https://www.instagram.com/oneokrockofficial/" target="_blank"><img src="Images/instagram_icon.png" title="ONE OK ROCK Instagram" alt="ONE OK ROCK Instagram" style="width:30px ; height:30px"></a>
+        <a href="https://twitter.com/ONEOKROCK_japan" target="_blank"><img src="Images/twitter_icon.png" title="ONE OK ROCK Twitter" alt="ONE OK ROCK Twitter" style="width:30px ; height:30px"></a>
+        <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube_icon.png"   title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube" style="width:30px ; height:30px"></a></p>
     </div>
     <!--form-->
-    <form enctype="text/plain" class="form" onsubmit="return false">
+    <form enctype="text/plain" class="form" onsubmit="return formValidation()">
         <div class="newsletter"><h3>Subscribe to our Newsletter</h3></div>
         <div class="email">
             <label for="email">Email Address: </label>
-            <input type="email" id = "email" name="email" placeholder="Email" required>
+            <input type="email" id = "email" name="email" placeholder="Email">
         </div>
         <button onclick="successMessage()">Subscribe</button>
   

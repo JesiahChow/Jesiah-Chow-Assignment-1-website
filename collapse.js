@@ -13,9 +13,17 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-function successMessage()
-{
-  alert("You have subscribed to our newsletter!")
-  document.querySelector("#email").value = "";
+function formValidation(){
+  let x = document.forms["form"]["email"].value;
+  if(x == ""){
+  alert("Please fill in your email");
+  return false
+}
+  else{
+
+    document.querySelector("#email").value = "";
+    alert("You have subscribed to our newsletter!");
+
+  }
 }
 

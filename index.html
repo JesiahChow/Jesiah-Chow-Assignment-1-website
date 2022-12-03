@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="author" content="Jesiah Chow">
@@ -10,16 +10,19 @@
 <link rel = "stylesheet" type="text/css" href="normalize.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>ONE OK ROCK</title>
-<script src="collapse.js"defer></script>
+<script src="collapse.js" defer></script>
 <style>
-.flex-image{
+.flex-image div{
     display: flex;
-    width: 50%;
-    max-width: auto;
-    margin: auto;
     flex-direction: column;
     justify-content: center;
     padding: 30px;
+    flex-wrap: nowrap;
+}
+.flex-image div img{
+    margin: auto;
+    width: 71%;
+    height: 550px;
 }
 
 .album{
@@ -33,16 +36,15 @@
     }
 .album>div{
     justify-content: space-evenly;
-        padding: 40px;
+        padding: 11px;
         margin: 30px;
         text-align: center;
 }
 .album div img{
     width: 100%;
-    max-width: auto;
     height:250px;
     margin: auto;
-    gap: 5;
+    gap: 2rem;
 
     }
 .album a:link, a:visited {
@@ -73,13 +75,12 @@ border-radius: 50px;}
     background-color: #721616;
 }
 .tour a p{text-align: center;
-display: flexbox;
+    
+
 }
 .intro{padding: 20px;
 font-size: 17px;}
-
-
-    </style>
+</style>
 
 
 
@@ -87,7 +88,7 @@ font-size: 17px;}
 <body>
 <nav>
     <div class="header">
-        <img src="Images/ONE OK ROCK logo.png" alt="home">
+        <img src="Images/ONE_OK_ROCK_logo.png" alt="home">
     </div>
     <ul>
         
@@ -96,12 +97,12 @@ font-size: 17px;}
         <li><a href="video.html" target="_blank">Video</a></li> 
         <li><a href="music.html" target="_blank">Music</a></li>
         <li><a href="tour.html" target="_blank">Tour</a></li>
-        <li><a href="store.html" target="_blank ">Store</a></li>
+        <li><a href="store.html" target="_blank">Store</a></li>
     </ul>
 </nav>
 <!--Main content-->
 <div class="flex-image">
-     <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band">
+     <div><img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band"></div>
 </div> 
 <div class="intro">
     <p>ONE OK ROCK is a Japanese rock band, formed in Tokyo,Japan, in 2005 and debuted in 2007.<br> Their members consists of vocalist
@@ -113,16 +114,16 @@ font-size: 17px;}
 <hr>
 <div class="album">
 
-    <div><a href="https://www.oneokrock.com/jp/music/3982"><img src="Images/Luxury Disease album.jpg" alt="Luxury Disease Japanese ver" title="Luxury Disease Japanese ver"></a>
+    <div><a href="https://genius.com/albums/One-ok-rock/Luxury-disease-japanese-ver"><img src="Images/Luxury_Disease_album.jpg" alt="Luxury Disease Japanese ver" title="Luxury Disease Japanese ver"></a>
         <p>Luxury Disease (Japanese ver)<br>
             September 9 2022</p></div>
-    <div><a href="https://www.oneokrock.com/jp/music/3988"><img src="Images/Luxury Disease english album.jpg" alt="Luxury Disease english version" title="Luxury Disease English ver"></a><P>Luxury Disease (English ver)<br>
+    <div><a href="https://genius.com/albums/One-ok-rock/Luxury-disease"><img src="Images/Luxury_Disease_english_album.jpg" alt="Luxury Disease english version" title="Luxury Disease English ver"></a><P>Luxury Disease (English ver)<br>
         September 9 2022</P></div>
-    <div><a href="https://www.oneokrock.com/jp/music/2581"><img src="Images/Eye of the Storm album.jpg" alt = "Eye of the Storm English ver" title="Luxury Disease English ver"></a><p>
+    <div><a href="https://genius.com/albums/One-ok-rock/Eye-of-the-storm"><img src="Images/Eye_of_the_Storm_album.jpg" alt = "Eye of the Storm English ver" title="Luxury Disease English ver"></a><p>
         Eye of the Storm (English ver)<br>
         February 15 2019
     </p></div>
-    <div><a href="https://www.oneokrock.com/jp/music/1703"><img src="Images/Ambitions Japanese ver.jpg" alt="Ambitions Japanese ver"></a><p>Ambitions (Japanese ver)<br>
+    <div><a href="https://genius.com/albums/One-ok-rock/Ambitions-japanese-ver"><img src="Images/Ambitions_Japanese_ver.jpg" alt="Ambitions Japanese ver"></a><p>Ambitions (Japanese ver)<br>
     January 11 2019</p></div>
 </div>
 <div class="more"><a href="music.html">More</a></div>
@@ -131,24 +132,24 @@ font-size: 17px;}
 <h1 style="text-align: center;">Gallery</h1>
 <hr>
 <div class="gallery">
-    <div><img src = "Images/one ok rock ambitions tour singapore.jpg"></div>
-    <div><img src="Images/impact.jpg"></div>
-    <div><img src="Images/idk9.jpg"></div>
-    <div><img src="Images/idk10.jpg"></div>
+    <div><img src = "Images/one_ok_rock_ambitions_tour_singapore.jpg" alt="ONE OK ROCK gallery"></div>
+    <div><img src="Images/impact.jpg" alt="ONE OK ROCK gallery"></div>
+    <div><img src="Images/idk9.jpg" alt="ONE OK ROCK gallery"></div>
+    <div><img src="Images/idk10.jpg" alt="ONE OK ROCK gallery"></div>
 </div>
 
 <!--Tours-->
 <h1 style="text-align: center;">Tours</h1>
 <hr>
 <div class="tour">
-    <div>2 December 2022 - 4 December 2022 <br>
-        Good Things Festival 2022 Australia</div>
+    <div>28 January 2022 - 12 February 2022 & 4 April 2023 - 23 April 2023<br>
+        ONE OK ROCK 2023 Luxury Disease Japan Tour</div>
         <br>
     <div>25 February 2023 - 19 March 2023<br>
         Muse-Will Of The People World Tour 2023 North America</div>
         <br>
 </div>
-<div class="more"><a href="tour.html" ><p>More</p></a></div>
+<div class="more"><a href="tour.html" >More</a></div>
 <br><br>
 
 <br><br>
@@ -159,26 +160,26 @@ font-size: 17px;}
 <br><br>
 <br><br>
 <br><br>
-<a href="#Top" style="color: white; margin: 10px; background-color: rgba(88, 145, 87, 0.459);display: flexbox; padding: 10px; border-radius: 20px;text-decoration: none;">Back to Top</a>
-<br><br>
+<a href="#Top" class="top">Back to Top</a>
 <br><br>
 <!--footer-->
 <div class="footer">
     <div class="subfooter">
         <p>Done by Jesiah Chow
         <br><br>
-        <a href="https://www.instagram.com/oneokrockofficial/" target="_blank"><img src="Images/instagram icon.png" width="30px" height="30px" title="ONE OK ROCK Instagram" alt="ONE OK ROCK Instagram"></a>
-        <a href="https://twitter.com/ONEOKROCK_japan" target="_blank"><img src="Images/twitter icon.png" width="30px" height="30px" title="ONE OK ROCK Twitter" alt="ONE OK ROCK Twitter"></a>
-        <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube icon.png" width="30px" height="30px" title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube"></a></p>
+        <a href="https://www.instagram.com/oneokrockofficial/" target="_blank"><img src="Images/instagram_icon.png" title="ONE OK ROCK Instagram" alt="ONE OK ROCK Instagram" style="width:30px ; height:30px"></a>
+        <a href="https://twitter.com/ONEOKROCK_japan" target="_blank"><img src="Images/twitter_icon.png" title="ONE OK ROCK Twitter" alt="ONE OK ROCK Twitter" style="width:30px ; height:30px"></a>
+        <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube_icon.png" title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube" style="width:30px ; height:30px"></a></p>
     </div>
     <!--form-->
-    <form enctype="text/plain" class="form" onsubmit="return false">
-        <div class="newsletter"><h3>Subscribe to our Newsletter</h3></div>
+    <form enctype="text/plain" class="form" name="form" onsubmit="return formValidation()">
+        <div class="newsletter"><h2>Subscribe to our Newsletter</h2>
+            <p>for the latest news and updates of ONE OK ROCK</p></div>
         <div class="email">
             <label for="email">Email Address: </label>
-            <input type="email" id = "email" name="email" placeholder="Email" required>
+            <input type="email" id = "email" name="email" placeholder="Email">
         </div>
-        <button onclick="successMessage()">Subscribe</button>
+        <button>Subscribe</button>
   
 
                 

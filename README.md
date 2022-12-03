@@ -19,10 +19,9 @@ Features:
 - For the rest of the pages, most of the images are clickable and will direct the user to the actual band's website where
   there are additional information to view.
 
-A feature I plan to implement is a form for users to use and pay if they want to buy the band's merchandise which I may not implement if it is too complexed.
+- There is a form at the footer for users to fill in should they want to subscribe to their newsletter.
 
-There are features left to implement such as the store page which i had not started and to include images of their merchandise
-and show its cost
+A feature I plan to implement is a form for users to use and pay if they want to buy the band's merchandise which I may not implement if it is too complexed.
 
 Technologies used:
 I used Javascript for one of my pages. I get the element by class, created variables, functions and
@@ -46,6 +45,9 @@ For testing, I have added a form in the footer for users to fill in should they 
 3. Fill in the form but this time with a random text that is not an email to verify if an error message on invalid email appears.
 
 4. This time, fill in the form with a valid email and click subscribe to verify if a success message will appear.
+
+Bugs:
+There was a bug i encountered when coding which is for my index and about page there is an band image at the center. When I added media query and changed the height and width in visual studio code while inspecting it manages to adjust perfectly but when I inspect the page after saving my code the image is stretched and when the media query is active my elements were cancelled with a line over it which I am unsure why.
 
 References:
 The photos and icons in this website were obtained from:
@@ -79,3 +81,7 @@ The videos were taken from:
 - https://www.youtube.com/watch?v=Hh9yZWeTmVM
 - https://www.youtube.com/watch?v=6YZlFdTIdzM
 - https://www.youtube.com/watch?v=UjZqcDYbvAE
+
+The font for the header is taken from
+
+- https://fonts.google.com/specimen/PT+Sans?preview.size=33
