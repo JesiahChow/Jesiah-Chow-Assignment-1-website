@@ -7,6 +7,7 @@
     <title>ONE OK ROCK Video</title>
     <link rel = "stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
     <style>
 
         .videos{display: flex;
@@ -17,7 +18,7 @@
         }
         .videos div{text-align: center;}
         iframe{
-            width: 50%;
+            width: 70%;
             border: 0;
         }
         </style>
@@ -26,6 +27,7 @@
 <body>
 <!--Navigation bar-->
 <nav>
+    <!--band logo-->
     <div class="header">
         <img src="Images/ONE_OK_ROCK_logo.png" alt="home" >
     </div>
@@ -69,7 +71,7 @@
     <br><br>
     <br><br>
     <br><br>
-   
+   <!--back to top button-->
     <a href="#Top" class="top">Back to Top</a>
     <br><br>  
     <!--footer-->
@@ -83,12 +85,14 @@
         </div>
         <!--form-->
         <form enctype="text/plain" class="form" onsubmit="return formValidation()">
-            <div class="newsletter"><h3>Subscribe to our Newsletter</h3></div>
+            <div class="newsletter"><h3>Subscribe to our Newsletter</h3><br>
+            <p>Get the latest news and updates of ONE OK ROCK</p></div>
+            <!--email-->
             <div class="email">
                 <label for="email">Email Address: </label>
                 <input type="email" id = "email" name="email" placeholder="Email">
             </div>
-            <button onclick="successMessage()">Subscribe</button>
+            <button>Subscribe</button>
       
     
                     

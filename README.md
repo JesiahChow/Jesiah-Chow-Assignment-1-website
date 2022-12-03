@@ -9,6 +9,8 @@ Design Process:
 
 - This website is for people from all walks of life. Its aim is to spread the popularity of this band and for people to get to know them especially the vocalist who is Japanese and is fluent in English which is rare for a Japanese band. I wan people to listen to their music as it is one of the very few japanese bands that is able to gain recognition outside of Japan particularly in the west and even won international musical awards.
 
+Here is my design wireframe on Adobe XD: https://xd.adobe.com/view/1d31244b-4440-43d4-88d9-f4b739fdcc2b-4862/
+
 Features:
 
 - On the tour page. The collapsible buttons allow user to use see where the specific locations are for the tour which the user
@@ -47,7 +49,7 @@ For testing, I have added a form in the footer for users to fill in should they 
 4. This time, fill in the form with a valid email and click subscribe to verify if a success message will appear.
 
 Bugs:
-There was a bug i encountered when coding which is for my index and about page there is an band image at the center. When I added media query and changed the height and width in visual studio code while inspecting it manages to adjust perfectly but when I inspect the page after saving my code the image is stretched and when the media query is active my elements were cancelled with a line over it which I am unsure why.
+There was a bug i encountered when coding which is for my index and about page there is an band image at the center. When I added media query and changed the height and width in visual studio code while inspecting it manages to adjust perfectly but when I inspect the page after saving my code the image is stretched and when the media query is active my elements were cancelled with a line over it which I am unsure why. (In the end I managed to fix it.)
 
 References:
 The photos and icons in this website were obtained from:

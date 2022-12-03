@@ -7,9 +7,14 @@
     <title>ONE OK ROCK STORE</title>
     <link rel = "stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
 <style>
     body{background-color: white; color: black;}
     nav{background-color:rgb(66, 66, 66);
+    }
+    .header img{
+        width: 60%;
+        margin: auto;
     }
     
     .shop{
@@ -29,6 +34,7 @@
         
     }
     .shop p{justify-content: center;
+        padding: 10px;
     }
     .shop div img{
         /*justify-content: space-evenly;*/
@@ -44,8 +50,6 @@
     transform:scale(1.1);
 }
 
-
-    
 </style>
 </head>
 <body>
@@ -106,14 +110,12 @@
     </div>
 </div>
 <br><br>
-<div class="mainStore">
-<a href="https://store.oneokrock.com/" target="_blank">
-More items</a></div>
-
+<div class="mainStore"><a href="https://store.oneokrock.com/" target="_blank" >More items</a></div>
 
 <br><br>
 <br><br>
 <br><br>
+<!--back to top button-->
 <a href="#Top" class="top">Back to Top</a>
 <br><br>
 <!--footer-->
@@ -127,8 +129,10 @@ More items</a></div>
     </div>
     <!--form-->
     <form enctype="text/plain" class="form" onsubmit="return formValidation()">
-        <div class="newsletter"><h3>Subscribe to our Newsletter</h3></div>
+        <div class="newsletter"><h3>Subscribe to our Newsletter</h3><br>
+        <p>Get the latest news and updates of ONE OK ROCK</p></div>
         <div class="email">
+            <!--email-->
             <label for="email">Email Address: </label>
             <input type="email" id = "email" name="email" placeholder="Email">
         </div>

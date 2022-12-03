@@ -5,20 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONE OK ROCK-About</title>
+    <link rel = "stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-  
+    <script src="script.js" defer></script>
 <style>
-.flex-image{display: flex;
-flex-direction: column;
-justify-content: center;
-flex-wrap: nowrap;
-padding: 30px;}
-
-.flex-image img{
-    margin: auto;
-    width: 60%;
-    height: 600px;
-}
         
 .flex-item{padding: 7%;
         margin: auto;
@@ -47,6 +37,7 @@ padding: 22px;}
  <!--Navigation bar-->
  <nav>
     <div class="header">
+        <!--band logo-->
         <img src="Images/ONE_OK_ROCK_logo.png" alt="home" >
     </div>
     <ul>
@@ -63,7 +54,7 @@ padding: 22px;}
 <header>
 <h1 style="text-align: center;">About</h1>
 </header>
-
+<!--image of band-->
 <div class="flex-image">
     <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band" >
 </div> 
@@ -113,8 +104,10 @@ padding: 22px;}
 <br><br>
 <br><br>
 <br><br>
+<!--back to top button-->
 <a href="#Top" class="top">Back to Top</a>
 <br><br>
+<!--footer-->
 <div class="footer">
     <div class="subfooter">
         <p>Done by Jesiah Chow
@@ -124,13 +117,15 @@ padding: 22px;}
         <a href="https://www.youtube.com/channel/UCzycs8MqvIY4nXWwS-v4J9g" target="_blank"><img src="Images/youtube_icon.png"   title="ONE OK ROCK Youtube" alt="ONE OK ROCK Youtube" style="width:30px ; height:30px"></a></p>
     </div>
     <!--form-->
-    <form enctype="text/plain" class="form" onsubmit="return formValidation()">
-        <div class="newsletter"><h3>Subscribe to our Newsletter</h3></div>
+    <form enctype="text/plain" class="form" name="form" onsubmit="return formValidation()">
+        <div class="newsletter"><h3>Subscribe to our Newsletter</h3><br>
+        <p>Get the latest news and updates of ONE OK ROCK</p></div>
+        <!--email-->
         <div class="email">
             <label for="email">Email Address: </label>
             <input type="email" id = "email" name="email" placeholder="Email">
         </div>
-        <button onclick="successMessage()">Subscribe</button>
+        <button>Subscribe</button>
   
 
                 

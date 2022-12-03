@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-*{box-sizing: border-box; font-family: Verdana, Geneva, Tahoma, sans-serif}
+*{box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 0;
+margin: 0;}
 ul{list-style-type: none;}
 nav{
     background-color: black;
@@ -11,8 +14,8 @@ h1, h2{
 }
 
 nav ul{list-style-type: none;
-        margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 display: flex;
 }
 
@@ -57,10 +60,20 @@ overflow-x: hidden;
     text-align: center;
     display: flex;
     justify-content: center;
-    width: 50%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 1000px;
     margin: auto;
     height: auto;
+  }
+  .flex-image{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    max-width: 1000px;
+    margin: auto;
+    height: auto;
+    padding: 20px;
   }
 
 .footer{
@@ -153,45 +166,38 @@ margin: 0;
 .top{
     color: white;
     margin: 10px; 
-    background-color: rgb(88, 145, 87, 0.459);
+    background-color: rgb(88, 145, 87, 1);
     display: inline; 
     padding: 10px; 
     border-radius: 20px;
     text-decoration: none;
 }
-.mainStore {
-    display:inline-flex ;
-    justify-content: center;
-    border: 0;
-    background-color: red;
-    padding: 10px;
-    margin: auto;
-}
-.mainStore a{
-    text-decoration: none;
-    display:inline-flex;
-    text-align: center;
-    justify-content: center;
-    color: white;
-}
-.mainStore a:hover{
-    background-color: rgb(231, 95, 95);
-}
-hr{border-width: 1;
+
+hr{border-width: 1px;
 background-color: white;
 color: white;}
 
-
+.mainStore{text-align: center;
+}
+.mainStore a{  
+    color: white;
+    background-color: rgb(84, 84, 84);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;}
+.mainStore a:hover, a:active {
+        background-color: red;
+      }
+      
  @media(max-width:600px) {
     nav ul{flex-direction: column;}
     nav ul li{text-align: center;}
     .main{flex-direction: column;}
     .header{flex-direction: column;}
-    .flex-image{flex-direction: column;}
-    .flex-image div img{
-        height: 240px;
-        width: 55%;
-    }
+    .flex-image{flex-direction: column;
+    height: auto;
+    width: 100%;}
     .main{flex-direction: column;}
     .tour{flex-direction: column;}
     .videos{flex-direction: column;
@@ -212,9 +218,11 @@ color: white;}
         padding: 10px;
         margin: 124px;
     }
-    
+ }
 
-}
+   
+
+
 /* When i was temporary working on my desktop */
 @media(min-width:1008px){
     .header{width: 100%;

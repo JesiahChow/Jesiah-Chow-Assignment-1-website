@@ -10,20 +10,8 @@
 <link rel = "stylesheet" type="text/css" href="normalize.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>ONE OK ROCK</title>
-<script src="collapse.js" defer></script>
+<script src="script.js" defer></script>
 <style>
-.flex-image div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    flex-wrap: nowrap;
-}
-.flex-image div img{
-    margin: auto;
-    width: 71%;
-    height: 550px;
-}
 
 .album{
     display: flex;
@@ -78,7 +66,7 @@ border-radius: 50px;}
     
 
 }
-.intro{padding: 20px;
+.intro{padding: 30px;
 font-size: 17px;}
 </style>
 
@@ -87,6 +75,7 @@ font-size: 17px;}
 </head>
 <body>
 <nav>
+    <!--band logo-->
     <div class="header">
         <img src="Images/ONE_OK_ROCK_logo.png" alt="home">
     </div>
@@ -102,8 +91,10 @@ font-size: 17px;}
 </nav>
 <!--Main content-->
 <div class="flex-image">
-     <div><img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band"></div>
+    <!--image of band-->
+     <img src="Images/ONE-OK-ROCK-image.jpg" alt="ONE OK ROCK band">
 </div> 
+<!--brief introduction-->
 <div class="intro">
     <p>ONE OK ROCK is a Japanese rock band, formed in Tokyo,Japan, in 2005 and debuted in 2007.<br> Their members consists of vocalist
     Takehiro Moriuchi, guitarist and bandleader Toru Yamashita,<br> bassist Ryota Kohoma and drummer Tomoya Kanki. </p>
@@ -160,6 +151,7 @@ font-size: 17px;}
 <br><br>
 <br><br>
 <br><br>
+<!--back to top button-->
 <a href="#Top" class="top">Back to Top</a>
 <br><br>
 <!--footer-->
@@ -173,8 +165,9 @@ font-size: 17px;}
     </div>
     <!--form-->
     <form enctype="text/plain" class="form" name="form" onsubmit="return formValidation()">
-        <div class="newsletter"><h2>Subscribe to our Newsletter</h2>
-            <p>for the latest news and updates of ONE OK ROCK</p></div>
+        <div class="newsletter"><h2>Subscribe to our Newsletter</h2><br>
+            <p>Get the latest news and updates of ONE OK ROCK</p></div>
+            <!--email-->
         <div class="email">
             <label for="email">Email Address: </label>
             <input type="email" id = "email" name="email" placeholder="Email">
