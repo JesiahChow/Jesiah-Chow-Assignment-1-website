@@ -10,7 +10,7 @@
     <!--Javascript-->
     <script src="script.js" defer></script>
     <style>
-
+/* styling of tour section*/
 .tour{display: flex;
 flex-direction: column;
 background-color: rgb(41, 41, 41);
@@ -18,9 +18,7 @@ justify-content: space-evenly;
 margin: 30px;
 flex-wrap: wrap;
 font-size: 15px;}
-/*.tour div{padding: 20px;
-    margin: 20px;
-text-align: center;}*/
+/*styling of collapse class*/
 .collapse{
   background-color: rgb(41, 41, 41);
   color: white;
@@ -32,11 +30,11 @@ text-align: center;}*/
   outline: none;
   font-size: 15px;
 }
-
+/* styling of collapse button link*/
 .active, .collapse:hover {
   background-color: #555;
 }
-
+/* styling of collapse button symbol before it expands*/
 .collapse:after {
   content: '\002B';/*unicode character for plus(+) sign*/
   color: white;
@@ -44,11 +42,11 @@ text-align: center;}*/
   float: right;
   margin-left: 5px;
 }
-
+/* styling of collapse button symbol after it expands*/
 .active:after {
   content: "\2212";/*unicode character for minus(-) sign */
 }
-
+/* styling of p class within collapse button*/
 .p {
   padding:0 20px;
   max-height: 0;
@@ -56,8 +54,10 @@ text-align: center;}*/
   transition: max-height 0.2s ease-out;
   background-color: #312e2e;
 }
+/* styling of links within the texts*/
 .p a{color: white;
 text-decoration: none;}
+/* styling of each lists*/
 li{
     padding:10px 10px
 }
@@ -68,9 +68,11 @@ li{
 
 
 <nav>
+    <!--band logo-->
     <div class="header">
         <img src="Images/ONE_OK_ROCK_logo.png" alt="home">
     </div> 
+    <!--navigation bar-->
     <ul>
         <li><a href="index.html" target="_blank">Home</a></li>
         <li><a href="about.html" target="_blank">About</a></li>
@@ -80,9 +82,10 @@ li{
         <li><a href="store.html" target="_blank">Store</a></li>
     </ul>
 </nav>
+<!--Tours-->
 <div class="tour">
     <h1 style="text-align: center;">Tours</h1>
-      <!--Tour date and venue linking to website-->
+      <!--Tour dates and venues linking to website-->
     <button class="collapse">28 January 2022 - 12 February 2022 & 4 April 2023 - 23 April 2023<br>
         ONE OK ROCK 2023 Luxury Disease Japan Tour</button>
        
@@ -90,22 +93,31 @@ li{
             <ul>
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928404&utm_campaign=notify_me&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">01/28/2023 Nagoya, Japan - Vantelin Nagoya Dome</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928408&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">01/29/2023 Nagoya, Japan - Vantelin Nagoya Dome</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928410&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">02/04/2023 Fukuoka, Japan - Fukuoka PayPay Dome</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928413&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">02/05/2023 Fukuoka, Japan - Fukuoka PayPay Dome</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928417&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">02/11/2023 Osaka, Japan - Kyocera Dome Osaka</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928418&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">02/12/2023 Osaka, Japan - Kyocera Dome Osaka</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928420&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">04/04/2023 Tokyo, Japan - Tokyo Dome</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928421&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">04/05/2023 Tokyo, Japan - Tokyo Dome</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928425&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">04/22/2023 Saitama, Japan - Belluna Dome</a></li>
+
                 <li><a href="https://www.bandsintown.com/artist-rsvp/343260?event_id=103928426&utm_campaign=rsvp&utm_medium=web&app_id=js_www.oneokrock.com&affil_code=js_www.oneokrock.com&utm_source=widget&came_from=242&spn=0&signature=ZZ64f3b87dbf2baa11a2e67aec22682b63149a2013a3c837d078a104580ec62e33" 
                     title="click here for more information">04/23/2023 Saitama, Japan - Belluna Dome</a></li>
             </ul>
@@ -116,18 +128,31 @@ li{
         <div class="p">
             <ul>
                 <li><a href="https://www.bandsintown.com/e/103897831?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">02/25/2023 Chicago, IL – United Center</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897836?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">02/26/2023 Minneapolis, MN – Target Center</a></li>
-                <li><a href="https://www.bandsintown.com/e/103897881?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">02/28/2023 Austin, TX – Moody Center</a></li>   
+
+                <li><a href="https://www.bandsintown.com/e/103897881?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">02/28/2023 Austin, TX – Moody Center</a></li> 
+
                 <li><a href="https://www.bandsintown.com/e/103897883?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/02/2023 Houston, TX – Toyota Center</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897884?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more informtion">03/03/2023 Ft. Worth, TX – Dickies Arena</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897924?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/05/2023 St. Louis, MO – Chaifetz Arena</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897963?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/07/2023 Columbus, OH – Nationwide Arena</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897964?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/09/2023 Toronto, ON – Scotiabank Arena</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897968?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/11/2023 Quebec City, QC – Videotron Centre</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897969?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/12/2023 Quebec City, QC – Videotron Centre</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897973?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget"  title="click here for more information">03/14/2023 Montreal, QC – Bell Centre</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897975?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/15/2023 Montreal, QC – Bell Centre</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897977?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/17/2023 New York, NY – Madison Square Garden</a></li>
+
                 <li><a href="https://www.bandsintown.com/e/103897983?affil_code=js_www.oneokrock.com&app_id=js_www.oneokrock.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget" title="click here for more information">03/19/2023 Philadelphia, PA – Wells Fargo Center</a></li>
 
             </ul>
@@ -152,6 +177,7 @@ li{
 <br><br>
 <!--footer-->
 <div class="footer">
+    <!--social links-->
     <div class="subfooter">
         <p>Done by Jesiah Chow
         <br><br>

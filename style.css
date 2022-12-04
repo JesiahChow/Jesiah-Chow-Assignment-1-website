@@ -4,21 +4,23 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 padding: 0;
 margin: 0;}
+/*navigation bar*/
 ul{list-style-type: none;}
 nav{
     background-color: black;
     font-size: 20px;
 }
+/*headings*/
 h1, h2{
    font-family: 'PT Sans', sans-serif;
 }
-
+/*navigation bar*/
 nav ul{list-style-type: none;
 margin: 0;
 padding: 0;
 display: flex;
 }
-
+/*styling of navigation bar*/
 nav ul li{
     padding: 0.5rem;
     margin: 2rem;
@@ -26,7 +28,7 @@ nav ul li{
     flex: auto;
     text-align: center;
     }
-
+/*styling of navigation bar links*/
 nav li a{ 
     text-decoration: none;
     color: aliceblue;
@@ -34,12 +36,13 @@ nav li a{
 
 }
 
-
+/*styling of navigation bar links*/
 nav li a:hover{
     background-color: rgb(129, 129, 129);
 
 
 }
+/*background image for tour page*/
 .background{
     background-image: url(Images/concert.PNG);
     background-repeat:no-repeat;
@@ -54,7 +57,7 @@ body{
     color: white;
 overflow-x: hidden;
 }
-
+/*styling of logo */
 .header{
     flex-direction: column;
     text-align: center;
@@ -65,6 +68,7 @@ overflow-x: hidden;
     margin: auto;
     height: auto;
   }
+  /*styling for band image*/
   .flex-image{
     flex-direction: column;
     display: flex;
@@ -75,7 +79,7 @@ overflow-x: hidden;
     height: auto;
     padding: 20px;
   }
-
+/*overall styling of footer*/
 .footer{
     display: flex;
     padding: 15px 40px;
@@ -89,12 +93,13 @@ overflow-x: hidden;
     
 
 }
+/*social links*/
 .subfooter{
     display: flex;
     justify-content: center;
     font-size: 20px;
 }
-
+/*main form*/
 .form{
         display: flex;
         justify-content: flex-end;
@@ -102,16 +107,19 @@ overflow-x: hidden;
         padding: 0;
         margin: 0;
         }
+/*email*/
 .email{
     margin: auto;
     padding: 20px;
     width: 100%;
 }
+/*heading and paragraph within the form*/
 .newsletter{
 margin: auto;
 padding: 0;
 margin: 0;
 }
+/* subscribe button*/
 .form button{
   padding: 10px;
   width: 100%;
@@ -121,9 +129,11 @@ margin: 0;
   background-color: rgb(10, 85, 65);
 
 }
+/* styling of subscribe button */
 .form button:hover{
     background-color: rgb(97, 97, 97);
 }
+/* styling for the input of form*/
 .form input{
     border: 2px solid;
     border-radius: 4px;
@@ -132,17 +142,20 @@ margin: 0;
     padding: 10px;
     width: 100%;
 }
-
+/*more button*/
 .more{text-align: center;
 }
+/*styling of more button */
 .more a{  color: white;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-flex;}
+/* styling of more button link*/
 .more a:hover, a:active {
         background-color: #767a7b;
       }
+/*styling of brief introduction in the home page*/
 .intro{
     display: flex;
     justify-content: center;
@@ -150,6 +163,7 @@ margin: 0;
     flex-direction: row;
     background-color: rgb(85, 85, 56);
 }
+/*styling of the gallery*/
 .gallery{
     display: flex;
     flex-direction: row;
@@ -163,6 +177,7 @@ margin: 0;
     height:250px;
     margin: auto;
     }
+/*styling of back to top button*/
 .top{
     color: white;
     margin: 10px; 
@@ -172,13 +187,14 @@ margin: 0;
     border-radius: 20px;
     text-decoration: none;
 }
-
+/* styling of hr*/
 hr{border-width: 1px;
 background-color: white;
 color: white;}
-
+/* styling of the mainStore button in the store page*/
 .mainStore{text-align: center;
 }
+/* styling of the mainStore button link*/
 .mainStore a{  
     color: white;
     background-color: rgb(84, 84, 84);
@@ -186,34 +202,46 @@ color: white;}
     text-align: center;
     text-decoration: none;
     display: inline-flex;}
+/* styling of the mainStore button link*/
 .mainStore a:hover, a:active {
         background-color: red;
       }
-      
+/* media queries*/   
  @media(max-width:600px) {
+    /*flex-direction of navigation bar*/
     nav ul{flex-direction: column;}
     nav ul li{text-align: center;}
+    /*flex-direction of biography paragraph*/
     .main{flex-direction: column;}
+    /*flex-direction of band logo*/
     .header{flex-direction: column;}
+    /*flex-direction of band image*/
     .flex-image{flex-direction: column;
     height: auto;
     width: 100%;}
-    .main{flex-direction: column;}
+    /*flex-direction of tour lists*/
     .tour{flex-direction: column;}
+    /*flex-direction of videos class*/
     .videos{flex-direction: column;
     justify-content: center;}
     .videos div{flex-direction: column;
     justify-content: center;}
+    /*flex-direction and responsive layout of Youtube video*/
     .videos iframe{flex-direction: column;
         height: 350px;
         width: 80%;}
+    /*flex direction of album*/
     .album{flex-direction: column;}
     .album div img{flex-direction: column;}
+    /*flex-direction of gallery*/
     .gallery{flex-direction: column;}
+    /*flex-direction of footer*/
     .footer{flex-direction: column;}
+    /*background layout of background image in mobile view*/
     .background{
         background-size: 100% 50%;
        }
+    /*styling of shop class*/
     .shop div{
         padding: 10px;
         margin: 124px;
