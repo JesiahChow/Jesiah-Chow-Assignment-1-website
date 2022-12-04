@@ -23,19 +23,22 @@ Features:
 
 - There is a form at the footer for users to fill in should they want to subscribe to their newsletter.
 
-A feature I plan to implement is a form for users to use and pay if they want to buy the band's merchandise which I may not implement if it is too complexed.
-
-Technologies used:
-I used Javascript for one of my pages. I get the element by class, created variables, functions and
-a for loop to implemented a collapsible button for the band's tours in the tour page.
-This is the website that I had referred from:
+- I used Javascript for one of my pages. I get the element by class, created variables, functions and
+  a for loop to implemented a collapsible button for the band's tours in the tour page.
+  This is the website that I had referred from:
 
 - https://www.w3schools.com/howto/howto_js_collapsible.asp
 
-I implemented hover button so that when a user hover his/her cursor on the text a colour will pop out
-This is the website that I had referred from :
+- I implemented hover button so that when a user hover his/her cursor on the text a colour will pop out
+  This is the website that I had referred from :
 
 - https://www.w3schools.com/CSSref/sel_hover.php
+
+Technologies:
+
+- HTML : The primary language use for creating websites. For my website the main language I use is mostly HTML.
+- CSS : A mark-up language to aid HTML language. I used it to style my website.
+- Javascript : The language I had added in to implement human interactions.
 
 Testing:
 For testing, I have added a form in the footer for users to fill in should they want to subscribe to the band's newsletter.
@@ -48,10 +51,12 @@ For testing, I have added a form in the footer for users to fill in should they 
 
 4. This time, fill in the form with a valid email and click subscribe to verify if a success message will appear.
 
-Bugs:
-There was a bug i encountered when coding which is for my index and about page there is an band image at the center. When I added media query and changed the height and width in visual studio code while inspecting it manages to adjust perfectly but when I inspect the page after saving my code the image is stretched and when the media query is active my elements were cancelled with a line over it which I am unsure why. (In the end I managed to fix it.)
+My website looks normal on Microsoft edge and Chrome. In addition, I had adjusted my website to fit in a mobile layout. For example, in the mobile layout of a Samsung Galaxy S20 Ultra, every page will be in columns.
 
-References:
+Bugs:
+There was a bug i encountered when coding which is for my index and about page there is an band image at the center. When I added media query and changed the height and width in visual studio code while inspecting it manages to adjust perfectly but when I inspect the page after saving my code the image and restart the live server, it became stretched and when the media query is active my elements were cancelled with a line over it which I am unsure why. (In the end I managed to fix it.)
+
+Credits:
 The photos and icons in this website were obtained from:
 
 - https://www.listal.com/viewimage/9333894
@@ -69,14 +74,17 @@ The photos and icons in this website were obtained from:
 I have received inspiration from this website:
 
 - https://www.oneokrock.com/en/
+- https://store.oneokrock.com/
 
 The information are taken from:
 
 - https://www.oneokrock.com/en/
 - https://kprofiles.com/one-ok-rock-members-profile/
 - https://store.oneokrock.com/
-- Youtube
-- Spotify
+- https://open.spotify.com/artist/7k73EtZwoPs516ZxE72KsO
+- https://www.youtube.com/watch?v=Hh9yZWeTmVM
+- https://www.youtube.com/watch?v=6YZlFdTIdzM
+- https://www.youtube.com/watch?v=UjZqcDYbvAE
 
 The videos were taken from:
 
